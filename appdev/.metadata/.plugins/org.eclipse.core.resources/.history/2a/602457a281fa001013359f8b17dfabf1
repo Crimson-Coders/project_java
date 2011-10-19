@@ -1,0 +1,52 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/taskHelp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="52dp"
+            android:layout_marginLeft="38dp"
+            android:text="Task Help" />
+
+        <Button
+            android:id="@+id/callHelp"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_alignBottom="@+id/button1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="52dp"
+            android:text="Call Help" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_above="@+id/button1"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_marginBottom="94dp"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/breakButton"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignRight="@+id/button2"
+            android:text="Break" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="400px"
+            android:layout_height="300px"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="122dp"
+            android:text="Click a Button" />
+
+    </RelativeLayout>
